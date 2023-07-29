@@ -144,12 +144,20 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
-    justify-content: center;
-    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    
 }
 
 .container.blue button{
     border: 2px solid #F9FAF8;
+    flex-shrink: 0;
+}
+
+.container.blue .text-container {
+    flex-shrink: 3;
+    word-wrap: break-word;
 }
 
 .footer {
